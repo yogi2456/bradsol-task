@@ -1,0 +1,156 @@
+.learn {
+    max-width: 100%;
+    height: 500px;
+    background-color: #051135;
+}
+.learn > h1 {
+    color: white;
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.learn > p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+.learn1 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    margin: auto;
+}
+.learn2 {
+   width: 32%;
+   height: 350px;
+   /* border: 1px solid white; */
+   margin-top: 30px;
+}
+.learn2 > img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.learn2 > p {
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+.learn2 > h2 {
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact {
+    max-width: 80%;
+    margin: auto;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: -40px;
+    background-color: orange;
+}
+.contact1 {
+    max-width: 90%;
+    margin: auto;
+    /* border: 1px solid white; */
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact2 {
+    width: 27%;
+    height: 260px;
+    /* border: 1px solid white; */
+}
+.contact2 > h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: left;
+}
+.contact2 > p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -10px;
+}
+.contact3 {
+    width: 70%;
+    height: 300px;
+    /* border: 1px solid white; */
+}
+.contact4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contact5 {
+    width: 45%;
+}
+.contact5 > input {
+    color: white;
+    background-color: orange;
+    outline: none;
+    border: none;
+    text-align: left;
+    margin-right: 50px;
+}
+.contact5 > input::placeholder {
+    color: white;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.contact5 > div {
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.contact6 {
+    margin-top: 20px;
+}
+.contact6 > input {
+    color: white;
+    background-color: orange;
+    outline: none;
+    width: 300px;
+    border: none;
+    margin-right: 340px;
+}
+.contact6 > input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+.contact6 > div {
+    border-bottom: 2px solid white;
+    opacity: 0.7;
+    margin-top: 10PX;
+}
+.contact7 {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 420px;
+}
+
+@media screen and (max-width: 660px) {
+    .learn {
+        height: 600px;
+    }
+    .learn1 {
+        max-width: 80%;
+    }
+    .learn2 {
+        width: 30%;
+    }
+}

@@ -1,0 +1,64 @@
+.mainmenu {
+    max-width: 100%;
+    height: 300px;
+    background-image: url(https://bradsol.com/wp-content/uploads/2023/08/banner-02.png);
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+.mainmenu > h1 {
+    color: white;
+    margin-top: -5px;
+    padding-top: 80px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.mainmenu > p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.mainmenu1 {
+    display: flex;
+    margin-top: 30px;
+}
+.mainmenu1 > button:nth-child(1) {
+    color: white;
+    background-color: orange;
+    width: 130px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    margin-left: 38%;
+}
+.mainmenu1 > button:nth-child(2) {
+    color: white;
+    background-color: orange;
+    width: 110px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 480px) {
+     .mainmenu > h1 {
+        font-size: 16px;
+     }   
+     .mainmenu {
+        height: 400px;
+     }
+     .mainmenu > p {
+        font-size: 10px;
+     }
+     .mainmenu1 {
+        flex-direction: column;
+     }
+     .mainmenu1 > button:nth-child(2) {
+        margin-left: 180px;
+        margin-top: 20px;
+     }
+}

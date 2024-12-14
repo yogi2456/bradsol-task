@@ -1,0 +1,45 @@
+.menubar{
+    max-width: 100%;
+    background-color: #D8DEE2;
+    height: 60px;
+}
+.menubar1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+.menubar2 {
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.menubar2 > img {
+    margin-top: 18px;
+    margin-right: 70px;
+}
+.menubar3 {
+    width: 70%;
+    /* border: 1px solid black; */
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.menubar3 > div {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #F29B20;
+    margin-left: 25px;
+}
+.bar {
+    display: none;
+}
+
+@media screen and (max-width: 660px) {
+    .bar {
+        display: block;
+        margin-top: 15px;
+    }
+    .menubar3 {
+        display: none;
+    }
+}
